@@ -9,9 +9,9 @@ In this final project, , I completed four major tasks:
 2. Second, I compute TTC based on Lidar by calculating the mean distance to the ego car and using the constant velocity equations
 3. then i calculated TTC using camera for all matched 3D objects using keypoint and bounding boxes in the current
 4. the performance evaluation :
-     -TTC using Lidar isn't always correct because there are some of outliers
-     -also in camera TTC could be infected according to error in keypoint matching
-     -for the perforamce and speed of matching please check my project to get the best detectors & descriptors : https://github.com/mohamedayman2030/Camera-Based-2D-Feature-tracking
+     1. TTC using Lidar isn't always correct because there are some of outliers
+     2. also in camera TTC could be infected according to error in keypoint matching
+     3. for the perforamce and speed of matching please check my project to get the best detectors & descriptors : https://github.com/mohamedayman2030/Camera-Based-2D-Feature-tracking
      in the following example you will see the change on TTC in Lidar & camera estimation on the frames
      ![first frame](https://i.ibb.co/xFrSrV4/1.png)
      ![second frame](https://i.ibb.co/DKDGbsC/2.png)
@@ -37,3 +37,4 @@ In this final project, , I completed four major tasks:
 2. Make a build directory in the top level project directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./3D_object_tracking`.
+hint : you need to download yolo weights from yolo website
